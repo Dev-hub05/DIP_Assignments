@@ -1,0 +1,14 @@
+------------------------------------------------------------
+Noise Type           | Filter          | MSE        | PSNR (dB) 
+------------------------------------------------------------
+Gaussian Noise       | Mean Filter     | 53.60      | 30.84     
+Gaussian Noise       | Median Filter   | 63.83      | 30.08     
+Gaussian Noise       | Gaussian Filter | 58.06      | 30.49     
+Salt & Pepper Noise  | Mean Filter     | 35.41      | 32.64     
+Salt & Pepper Noise  | Median Filter   | 3.52       | 42.66     
+Salt & Pepper Noise  | Gaussian Filter | 30.99      | 33.22     
+------------------------------------------------------------
+
+Observation:
+Gaussian noise is generally better handled by Gaussian or Mean filters.
+Salt-and-Pepper noise is effectively removed by Median filtering.
